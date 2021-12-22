@@ -1,0 +1,125 @@
+body {
+  margin: 20px;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(74, 80, 167);
+  overflow: hidden;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.navbar {
+  float: right;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  font-size: 20px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.navbar a {
+  display: inline;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 1000px;
+  color: white;
+  text-align: right;
+}
+
+.navbar a:hover {
+  background-color: orange;
+}
+
+h1 {
+  color: rgb(74, 80, 167);
+  text-align: center;
+  padding: auto;
+  margin: 20px 0px;
+}
+
+.cars {
+  width: 500px;
+  height: 300px;
+  margin: 5px 50px 200px 20px;
+  padding-bottom: 200px 30px;
+}
+
+.cards {
+  display: flex;
+}
+
+.car-listing {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 25px;
+}
+
+.car-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+}
+
+.enquires {
+  margin: 5px 20px 50px 20px;
+  width: 800px;
+  height: 500px;
+  background-color: lightskyblue;
+}
+
+form {
+  padding: 20px;
+}
+
+#submit {
+  color: black;
+  background-color: orange;
+  text-decoration: none;
+}
+
+#enquires-title {
+  padding: 20px;
+}
+
+#contact {
+  margin-top: 5px;
+  padding: 20px;
+}
+
+iframe {
+  height: 500px;
+  width: 100%;
+}
+
+h2 {
+  color: rgb(74, 80, 167);
+}
+
+h6 {
+  font-weight: bold;
+}
+
+#top-button {
+  text-align: right;
+}
+
+#footer {
+  text-align: center;
+}
