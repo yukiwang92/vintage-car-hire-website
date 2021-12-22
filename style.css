@@ -36,7 +36,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  width: 1000px;
+  width: 100%;
   color: white;
   text-align: right;
 }
@@ -52,8 +52,8 @@ h1 {
   margin: 20px 0px;
 }
 
-.cars {
-  width: 500px;
+#cars {
+  width: 100%;
   height: 300px;
   margin: 5px 50px 200px 20px;
   padding-bottom: 200px 30px;
@@ -77,29 +77,48 @@ h1 {
   border-radius: 10%;
 }
 
-.enquires {
-  margin: 5px 20px 50px 20px;
-  width: 800px;
-  height: 500px;
+#enquires {
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
   background-color: lightskyblue;
 }
 
 form {
-  padding: 20px;
+  align-items: center;
+  padding: 40px;
+}
+
+#full-name,
+#email-address,
+#car-selection {
+  padding: 5px;
+  height: 50px;
+  width: 100%;
+}
+
+#comments {
+  margin-top: 5px;
+  width: 100%;
+  height: 100px;
 }
 
 #submit {
-  color: black;
-  background-color: orange;
+  margin-top: 50px;
+  color: white;
   text-decoration: none;
+  align-content: center;
 }
 
 #enquires-title {
   padding: 20px;
+  text-align: center;
 }
 
 #contact {
   margin-top: 5px;
+  text-align: center;
   padding: 20px;
 }
 

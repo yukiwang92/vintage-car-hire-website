@@ -28,7 +28,7 @@
       <nav class="navbar">
         <ul>
           <li><a href="#cars">Cars</a></li>
-          <li><a href="#enquires-title">Enquiries</a></li>
+          <li><a href="#enquires">Enquiries</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -37,7 +37,7 @@
     <main id="main">
       <h1>Vintage cars for hire</h1>
       <!-- Cars Section -->
-      <div class="cars">
+      <div id="cars">
         <h2>Car Listings</h2>
         <!-- Card 1 -->
         <div class="cards">
@@ -80,7 +80,7 @@
       </div>
 
       <!-- Enquires Section -->
-      <div class="enquires">
+      <div id="enquires">
         <h2 id="enquires-title">Enquires About a Car</h2>
         <!-- Form -->
         <form action="submission.html" method="POST">
@@ -107,14 +107,14 @@
             </select>
           </section>
 
-          <section class="comments">
+          <section id="comments">
             <label for="comments">Comments</label>
             <br />
             <textarea name="comments" id="comments"></textarea>
           </section>
 
           <section class="submission">
-            <input type="submit" value="Submit" id="submit"/>
+            <button class="btn btn-info" id="submit">Sumbit</button>
           </section>
         </form>
       </div>
